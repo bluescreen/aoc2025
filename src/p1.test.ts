@@ -2,11 +2,11 @@ import { expect, describe, test as it } from "bun:test";
 import { part1, part2 } from "./p1";
 import { readInputForDay, readInputForDayExample } from "../util";
 
-const EXAMPLE_PART1 = 0; 
-const RESULT_PART1 = 0; 
+const EXAMPLE_PART1 = 3; 
+const RESULT_PART1 = 1076; 
 
-const EXAMPLE_PART2 = 0; 
-const RESULT_PART2 = 0; 
+const EXAMPLE_PART2 = 6; 
+const RESULT_PART2 = 6379; 
 
 describe("day 1", () => {
   describe("part 1", () => {
