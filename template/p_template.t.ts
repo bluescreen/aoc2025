@@ -12,7 +12,7 @@ const RESULT_PART2 = 0;
 
 
 describe("day ${DAY}", () => {
-  describe("part ${DAY}", () => {
+  describe("part 1", () => {
     it("example", async () => {
       const data = await readInputForDayExample(DAY);
       expect(part1(data)).toEqual(EXAMPLE_PART1);
